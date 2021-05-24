@@ -140,7 +140,7 @@ namespace DijkstraAlgorithm
             }
             catch (FileNotFoundException) 
             {
-                Console.WriteLine("File not found! Make sure it is in the same folder as executable");
+                Console.WriteLine("File not found! Make sure you entered relative path form folder with executive");
             }
         }
     }
