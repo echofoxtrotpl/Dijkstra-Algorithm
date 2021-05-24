@@ -125,7 +125,7 @@ namespace DijkstraAlgorithm
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter name of file containing graph's data (in current folder): ");
+            Console.Write("Enter path to file containing graph's data: ");
             string path = Console.ReadLine();
             Console.WriteLine("Enter info about path (lowercase letters [a-z])");
             Console.Write("Starting vertex: ");
