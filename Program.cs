@@ -133,14 +133,25 @@ namespace DijkstraAlgorithm
             Console.Write("Target vertex: ");
             char target = Console.ReadLine()[0];
             try
-            { 
+            {
                 StreamReader file = new(path);
                 List<Edge> edges = FileWithData.GetData(ref file);
                 Dijkstra.Algorithm(edges, start, target);
             }
-            catch (FileNotFoundException) 
+            catch (FileNotFoundException)
             {
-                Console.WriteLine("File not found! Make sure you entered relative path form folder with executive");
+                Console.WriteLine("File not found or wrong path was provided");
+                Console.WriteLine("Make sure you entered relative path form folder with executive");
+            }
+            catch (DirectoryNotFoundException)
+            {
+                Console.WriteLine("The directory was not found");
+                Console.WriteLine("Make sure you entered relative path form folder with executive");
+            }
+            catch (IOException)
+            {
+                Console.WriteLine("The file could not be opened");
+                Console.WriteLine("Make sure you entered relative path form folder with executive");
             }
         }
     }
