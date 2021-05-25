@@ -9,11 +9,14 @@ To run this program you can <a href="https://github.com/echofoxtrotpl/DijkstraAl
 </ul>
 <h2>macOS portable application</h2>
 Just download zip and extract it. Then open terminal and type:
-  
+
   ```bash
-  cd DijkstraAlgorithm/osx-x64
-  ./DijkstraAlgorithm
+  sudo spctl --master-disable
   ```
+
+This will allow apps downloaded from anywhere, otherwise you have to click "allow" for every .dll file in osx-x64 folder.
+  
+Then just go to osx-x64 folder, find DijkstraAlgorithm and double click it.
 <h2>framework-dependent cross-platform binary</h2>
 It works on Windows/macOS/Linux.
 
