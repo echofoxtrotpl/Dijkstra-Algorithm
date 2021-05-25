@@ -1,9 +1,8 @@
 <h1>Dijkstra's algorithm implementation</h1>
 <h2>About this project</h2>
 It was my task to implement this algorithm for Graphs Theory course at AGH University of Science and Technology.
-<h2>How to run or build</h2>
-To build this program from source you will need .NET 5 SDK. <a href="https://dotnet.microsoft.com/download/dotnet/5.0" target="_blank">You can get it from here</a>.
-</br> To run this program you can <a href="https://github.com/echofoxtrotpl/DijkstraAlgorithm/releases" target="_blank">go to releases</a> and download app for your OS: </br></br>
+<h2>How to run</h2>
+To run this program you can <a href="https://github.com/echofoxtrotpl/DijkstraAlgorithm/releases" target="_blank">go to releases</a> and download app for your OS: </br></br>
 <ul>
 <li>macOS portable application (Minimum OS version is macOS 10.12 Sierra)</li>
 <li>framework-dependent cross-platform binary (DijkstraAlgorithm.dll)</li>
@@ -23,14 +22,14 @@ To run this you will need [.NET Runtime 5.0.6](https://dotnet.microsoft.com/down
 Then download [DijkstraAlgorithm.dll](https://github.com/echofoxtrotpl/DijkstraAlgorithm/releases).
 
   ```bash
-  cd folder_containing_app_and_txt_file
+  cd folder_containing_dll
   dotnet DijkstraAlgorithm.dll
   ```
   
   <h2>Usage</h2>
   
  
-  1. Prepare .txt file in specified format (lowercase letters for fromVertex and toVertex and number for weight):
+  1. Prepare .txt file in specified format (lowercase letters for "fromVertex" and "toVertex" and non negative number for "weight"):
  
    
     [fromVertex1, toVertex1, weight1]
@@ -48,8 +47,9 @@ Then download [DijkstraAlgorithm.dll](https://github.com/echofoxtrotpl/DijkstraA
   
   2. Run program according to instructions given above
   3. Enter path for file which contains data about edges of graph (relative from the folder where executable is located)
-  4. Enter starting vertex (for example: a)
-  5. Enter target vertex (for example: d)
+     </br>for example: ```../data.txt```
+  5. Enter starting vertex (for example: ```a```)
+  6. Enter target vertex (for example: ```e```)
   
   <h2>Output</h2>
   
