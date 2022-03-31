@@ -1,4 +1,7 @@
 <h1>Dijkstra's algorithm implementation</h1>
+
+**Creation date: 2021-05-24**
+
 <h2>About this project</h2>
 It was my task to implement this algorithm for Graphs Theory course at AGH University of Science and Technology.
 <h2>How to run</h2>
@@ -22,10 +25,9 @@ It works on Windows/macOS/Linux.
 
 To run this you will need [.NET Runtime 5.0.6](https://dotnet.microsoft.com/download/dotnet/5.0).
 
-Then download [DijkstraAlgorithm.dll](https://github.com/echofoxtrotpl/DijkstraAlgorithm/releases).
+Then download [DijkstraAlgorithm.dll](https://github.com/echofoxtrotpl/DijkstraAlgorithm/releases) and run it.
 
   ```bash
-  cd folder_containing_dll
   dotnet DijkstraAlgorithm.dll
   ```
   
