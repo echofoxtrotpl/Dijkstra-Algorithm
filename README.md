@@ -20,8 +20,7 @@ Just download zip and extract it. Then open terminal and type:
 This will allow apps downloaded from anywhere, otherwise you have to click "allow" for every .dll file in osx-x64 folder.
   
 Then just go to osx-x64 folder, find DijkstraAlgorithm and double click it.
-<h2>framework-dependent cross-platform binary</h2>
-It works on Windows/macOS/Linux.
+<h2>Windows/macOS/Linux</h2>
 
 To run this you will need [.NET Runtime 5.0.6](https://dotnet.microsoft.com/download/dotnet/5.0).
 
