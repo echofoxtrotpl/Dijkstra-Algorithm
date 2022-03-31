@@ -8,7 +8,7 @@ It was my task to implement this algorithm for Graphs Theory course at AGH Unive
 To run this program you can <a href="https://github.com/echofoxtrotpl/DijkstraAlgorithm/releases" target="_blank">go to releases</a> and download app for your OS: </br></br>
 <ul>
 <li>macOS portable application (Minimum OS version is macOS 10.12 Sierra)</li>
-<li>framework-dependent cross-platform binary (DijkstraAlgorithm.dll)</li>
+<li>Windows/macOS/Linux (DijkstraAlgorithm.dll)</li>
 </ul>
 <h2>macOS portable application</h2>
 Just download zip and extract it. Then open terminal and type:
